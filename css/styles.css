@@ -1,0 +1,90 @@
+body {
+    background: transparent url(../images/mokaPot.png) no-repeat center center !important;
+    
+}
+#home, #contact, #about, #menu {
+    background:  transparent url(../images/mokaPot.png) no-repeat center center !important;
+    
+   
+  font-family: 'ABeeZee', sans-serif !important;
+}
+
+
+h2, p {
+    background-color: rgba(255, 255, 255, .4);
+}
+/*ICONS FOR MENU */
+.ui-icon-moka:after {
+    background-image: url("../images/drink.svg");
+    
+    background-size: 18px 18px;
+    color: #fff;
+}
+.ui-icon-cup:after {
+    background-image: url("../images/croissant.svg");
+    
+    background-size: 18px 18px;
+    color: #fff;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+/*Fallback*/
+.ui-nosvg .ui-icon-moka:after {
+    background-image: url(../images/drink.png);
+    /*Icons made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>*/
+    background-size: 18px 18px;
+
+    
+}
+.responsiveH2 {
+    display: none;
+}
+/*Large Screen Display*/
+    @media screen and (min-width: 645px) {
+    
+    body, #home, #contact, #about, #menu {
+        background: transparent url(../images/eric-barbeau-dPzqzWI6AO8-unsplash.jpg) no-repeat center center !important;
+        
+        
+        font-family: 'ABeeZee', sans-serif !important;
+    }  
+    
+    
+    .responsive {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .responsive h2 {
+        display: none;
+    }
+    .responsiveH2 {
+        display: block;
+        text-align: center;
+    }
+    ul.responsive {
+        width: 960px;
+        margin: auto;
+        flex-wrap: wrap;
+        
+    }
+    ul.responsive li {
+        padding: 15px;
+       
+        
+
+    }
+    ul.responsive li a {
+        border-radius: 4px;
+    }
+    .ui-content h2, .ui-content p {
+        text-align: center;
+        
+        
+    }
+    
+}
